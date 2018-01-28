@@ -69,10 +69,8 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
         // Anything else is COERCED to true
         if (input) {
             winningScore = input;
-            console.log("if 1: " + winningScore);
         } else {
             winningScore = 100;
-            console.log("if 2: " + winningScore);
         }
 
         // Check if player won the game
